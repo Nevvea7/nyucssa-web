@@ -11,10 +11,16 @@
 	<header id="about-header">
 		<div class="container">
 			<div class="row">
-				<h1></h1>
+				<h1><%= post.title %></h1>
 			</div>
 		</div>
 	</header>
+
+    <div class="container">
+        <p>
+            <%- post.body %>
+        </p>
+    </div>
 
 
 	<% include ../partials/footer.ejs %>
@@ -31,7 +37,7 @@
     <script>
     	$(document).ready(function(){
     		$('.nav li').removeClass('active');
-    		$('#nav_about').addClass('active');
+    		$('#nav_events').addClass('active');
     	***REMOVED***)
     </script>
 
