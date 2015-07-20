@@ -3,7 +3,7 @@ var express = require('express')
   , app = express() // Web framework to handle routing requests
   , MongoClient = require('mongodb').MongoClient // Driver for connecting to MongoDB
   , config = require('config')
-  , routes = require('./routes')
+  , routes = require('routes')
   , path = require('path'); // Routes for our application
 
 

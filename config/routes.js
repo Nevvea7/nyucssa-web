@@ -1,4 +1,4 @@
-var ContentHandler = require('./content');
+var ContentHandler = require('content');
 
 module.exports = exports = function(app, db) {
 	var contentHandler = new ContentHandler(db);

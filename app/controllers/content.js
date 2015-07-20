@@ -8,7 +8,7 @@ function ContentHandler (db) {
 	this.displayHomePage = function(req, res, next) {
 
 		posts.getPosts(3, function(err, results) {
-			"use strict";
+
 			if (err) return next(err);
 
 			return res.render('pages/index', {
@@ -23,8 +23,12 @@ function ContentHandler (db) {
 		var link = req.params.link;
 
 		posts.getPostByLink(link, function(err, post) {
+			if (err) return next(err);
 			
-		})
+			return res.render('pages/singlepost', {
+				post: post
+			});
+		});
 	}
 }
 
