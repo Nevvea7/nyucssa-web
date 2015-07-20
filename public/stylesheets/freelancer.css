@@ -1,0 +1,264 @@
+/*!
+ * Start Bootstrap - Freelancer Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    overflow-x: hidden;
+
+***REMOVED***
+
+p {
+    font-size: 20px;
+***REMOVED***
+
+p.small {
+    font-size: 16px;
+***REMOVED***
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+    color: #78286B;
+***REMOVED***
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+***REMOVED***
+
+
+.img-centered {
+    margin: 0 auto;
+***REMOVED***
+
+header {
+    text-align: center;
+    color: #78286B;
+    background: #fff;
+***REMOVED***
+
+header .container {
+    padding-top: 100px;
+    padding-bottom: 50px;
+***REMOVED***
+
+
+header .intro-text .name {
+    display: block;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+***REMOVED***
+
+header .intro-text .skills {
+    font-size: 1.25em;
+    font-weight: 300;
+***REMOVED***
+
+#about-header {
+    color: #fff;
+    background-image:url('../images/about_header.jpg');
+    background-repeat:no-repeat;
+    background-position:center;
+***REMOVED***
+
+header p {
+    text-align: justify;
+***REMOVED***
+
+@media(min-width:768px) {
+    header .container {
+        padding-top: 200px;
+        padding-bottom: 100px;
+    ***REMOVED***
+
+    header .intro-text .name {
+        font-size: 4.75em;
+    ***REMOVED***
+
+    header .intro-text .skills {
+        font-size: 1.75em;
+    ***REMOVED***
+***REMOVED***
+
+section {
+    padding: 100px 0;
+***REMOVED***
+
+section h2 {
+    margin: 0;
+    font-size: 3em;
+***REMOVED***
+
+section.success {
+    color: #fff;
+    background: #78286B;
+***REMOVED***
+
+section.success a,
+section.success a:hover,
+section.success a:focus,
+section.success a:active,
+section.success a.active {
+    outline: 0;
+    color: #2c3e50;
+***REMOVED***
+
+@media(max-width:767px) {
+    section {
+        padding: 75px 0;
+    ***REMOVED***
+
+    section.first {
+        padding-top: 75px;
+    ***REMOVED***
+***REMOVED***
+
+
+.btn-outline {
+    margin-top: 15px;
+    border: solid 2px #fff;
+    font-size: 20px;
+    color: #fff;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+***REMOVED***
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+    border: solid 2px #fff;
+    color: #78286B;
+    background: #fff;
+***REMOVED***
+
+.floating-label-form-group {
+    position: relative;
+    margin-bottom: 0;
+    padding-bottom: .5em;
+    border-bottom: 1px solid #eee;
+***REMOVED***
+
+.floating-label-form-group input,
+.floating-label-form-group textarea {
+    z-index: 1;
+    position: relative;
+    padding-right: 0;
+    padding-left: 0;
+    border: 0;
+    border-radius: 0;
+    font-size: 1.5em;
+    background: 0 0;
+    box-shadow: none!important;
+    resize: none;
+***REMOVED***
+
+.floating-label-form-group label {
+    display: block;
+    z-index: 0;
+    position: relative;
+    top: 2em;
+    margin: 0;
+    font-size: .85em;
+    line-height: 1.764705882em;
+    vertical-align: middle;
+    vertical-align: baseline;
+    opacity: 0;
+    -webkit-transition: top .3s ease,opacity .3s ease;
+    -moz-transition: top .3s ease,opacity .3s ease;
+    -ms-transition: top .3s ease,opacity .3s ease;
+    transition: top .3s ease,opacity .3s ease;
+***REMOVED***
+
+.floating-label-form-group::not(:first-child) {
+    padding-left: 14px;
+    border-left: 1px solid #eee;
+***REMOVED***
+
+.floating-label-form-group-with-value label {
+    top: 0;
+    opacity: 1;
+***REMOVED***
+
+.floating-label-form-group-with-focus label {
+    color: #78286B;
+***REMOVED***
+
+form .row:first-child .floating-label-form-group {
+    border-top: 1px solid #eee;
+***REMOVED***
+
+footer {
+    color: #fff;
+***REMOVED***
+
+footer h3 {
+    margin-bottom: 30px;
+***REMOVED***
+
+footer .footer-above {
+    padding-top: 50px;
+    background-color: #461147;
+***REMOVED***
+
+footer .footer-col {
+    margin-bottom: 50px;
+***REMOVED***
+
+footer .footer-below {
+    padding: 25px 0;
+    background-color: #370e38;
+***REMOVED***
+
+.btn-social {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
+***REMOVED***
+
+.btn:focus,
+.btn:active,
+.btn.active {
+    outline: 0;
+***REMOVED***
+
+.scroll-top {
+    z-index: 1049;
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
+    width: 50px;
+    height: 50px;
+***REMOVED***
+
+.scroll-top .btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 28px;
+***REMOVED***
+
+.scroll-top .btn:focus {
+    outline: 0;
+***REMOVED***
+
+

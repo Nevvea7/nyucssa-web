@@ -1,0 +1,111 @@
+.jumbotron {
+  background: #532F8C;
+  color: white;
+  padding-bottom: 80px; ***REMOVED***
+  .jumbotron .btn-primary {
+    background: #845ac7;
+    border-color: #845ac7; ***REMOVED***
+    .jumbotron .btn-primary:hover {
+      background: #7646c1; ***REMOVED***
+  .jumbotron p {
+    color: #d9ccee;
+    max-width: 75%;
+    margin: 1em auto 2em; ***REMOVED***
+  .navbar + .jumbotron {
+    margin-top: -20px; ***REMOVED***
+  .jumbotron .lang-logo {
+    display: block;
+    background: #B01302;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border: 2px solid white; ***REMOVED***
+    .jumbotron .lang-logo img {
+      max-width: 100%; ***REMOVED***
+
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+***REMOVED***
+
+
+@media(min-width:768px) {
+    .navbar-fixed-top {
+        padding: 25px 0;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    ***REMOVED***
+
+    .navbar-fixed-top .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    ***REMOVED***
+
+    .navbar-fixed-top.navbar-shrink {
+        padding: 10px 0;
+    ***REMOVED***
+
+    .navbar-fixed-top.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    ***REMOVED***
+***REMOVED***
+
+.navbar {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    background-color: #78286B;
+***REMOVED***
+
+.navbar a:focus {
+    outline: 0;
+***REMOVED***
+
+.navbar .navbar-nav {
+    letter-spacing: 1px;
+***REMOVED***
+
+.navbar .navbar-nav li a:focus {
+    outline: 0;
+***REMOVED***
+
+.navbar-default,
+.navbar-inverse {
+    border: 0;
+***REMOVED***
+
+.navbar-default .navbar-brand {
+  color: #fff;
+  ***REMOVED***
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color:#3c0032;
+  background-color: #fff;
+***REMOVED***
+
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+***REMOVED***
+.navbar-default .navbar-nav>li>a:hover {
+  color: #3c0032;
+  background-color: #fff;
+***REMOVED***
+
+.sponsor-logo {
+  margin-bottom: 30px;
+  padding-left: 0px;
+  padding-right: 0px;
+
+***REMOVED***
+
+/* 
+  Home page blog posts style
+*/
+.lead-post p {
+  text-align: justify;
+***REMOVED***

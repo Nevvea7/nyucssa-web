@@ -1,0 +1,28 @@
+{
+  "name": "NYU-CSSA-WEB",
+  "version": "0.1.4",
+  "description": "A cssa beta website",
+  "main": "app.js",
+  "scripts": {
+    "start": "NODE_PATH=./config:./app/controllers node app.js"
+  ***REMOVED***,
+  "dependencies": {
+    "ejs": "^2.3.1",
+    "express": "~4.9.x",
+    "mongodb": "~2.0.x",
+    "mongoose": "4.0.6"
+  ***REMOVED***,
+  "engines": {
+    "node": "0.12.2"
+  ***REMOVED***,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nevvea7/cssa-beta"
+  ***REMOVED***,
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+***REMOVED***
