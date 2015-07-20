@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <% include ../partials/header.ejs %>
+</head>
+
+<body>
+<div class="container">
+  <% include ../partials/nav.ejs %>
+</div>
+<!-- <div class="jumbotron text-center">
+
+  <div class="container">
+
+    <a href="/" class="lang-logo">
+      <img src="/lang-logo.png">
+    </a>
+    <h1>Getting Started with Node on Heroku</h1>
+    <p>This is a sample Node application deployed to Heroku. It's a reasonably simple app - but a good foundation for understanding how to get the most out of the Heroku platform.</p>
+    <a type="button" class="btn btn-lg btn-default" href="https://devcenter.heroku.com/articles/getting-started-with-nodejs"><span class="glyphicon glyphicon-flash"></span> Getting Started with Node</a>
+    <a type="button" class="btn btn-lg btn-primary" href="https://github.com/heroku/node-js-getting-started"><span class="glyphicon glyphicon-download"></span> Source on GitHub</a>
+  </div>
+</div> -->
+
+     <!-- Carousel
+    ================================================== -->
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide img-responsive" src="/images/slideshow-1.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>hey. This is NYU CSSA's beta website.</h1>
+              <p>By "beta" I mean, it's really not ready for the world yet.</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="second-slide img-responsive" src="/images/slideshow-2.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Another example headline.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="third-slide img-responsive" src="/images/slideshow-3.jpg" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>One more for good measure.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+
+
+<div class="container">
+  <hr>
+  <div class="row">
+    <div class="col-md-7 lead-post">
+      <h2><%=topposts[0].title%></h2>
+      <p><%-topposts[0].body.slice(0, 430)%>...<a href="#">>Read More</a></p>
+    </div>
+    <div class="col-md-5">
+      <h2>Recent Events</h2>
+      
+        <h3><%=topposts[1].title%></h3>
+        <p><%-topposts[1].body.slice(0, 100)%>...<a href="#">Read More</a></p>
+        <h3><%=topposts[2].title%></h3>
+        <p><%-topposts[2].body.slice(0, 100)%>...<a href="#">Read More</a></p>
+      
+    </div>
+  </div> 
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12 text-center">
+      <h2>Partners</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-3 sponsor-logo">
+      <a href="#">
+        <img src="/images/sponsor-1.png" class="img-responsive">
+      </a>
+    </div>
+        <div class="col-lg-3 sponsor-logo">
+      <a href="#">
+        <img src="/images/sponsor-2.png" class="img-responsive">
+      </a>
+    </div>
+        <div class="col-lg-3 sponsor-logo">
+      <a href="#">
+        <img src="/images/sponsor-3.png" class="img-responsive">
+      </a>
+    </div>
+        <div class="col-lg-3 sponsor-logo">
+      <a href="#">
+        <img src="/images/sponsor-4.png" class="img-responsive">
+      </a>
+    </div>
+        <div class="col-lg-3 sponsor-logo">
+      <a href="#">
+        <img src="/images/sponsor-5.png" class="img-responsive">
+      </a>
+    </div>
+        <div class="col-lg-3 sponsor-logo">
+      <a href="#">
+        <img src="/images/sponsor-6.png" class="img-responsive">
+      </a>
+    </div>
+        <div class="col-lg-3 sponsor-logo">
+      <a href="#">
+        <img src="/images/sponsor-7.png" class="img-responsive">
+      </a>
+    </div>
+        <div class="col-lg-3 sponsor-logo">
+      <a href="#">
+        <img src="/images/sponsor-8.png" class="img-responsive">
+      </a>
+    </div>
+  </div>
+</div>
+<hr>
+
+<% include ../partials/footer.ejs %>
+
+   <!-- jQuery -->
+    <script src="/js/jquery.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="/js/classie.js"></script>
+    <script src="/js/cbpAnimatedHeader.js"></script>
+
+    <script src="/js/custom.js"></script>
+
+</body>
+</html>
