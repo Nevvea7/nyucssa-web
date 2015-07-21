@@ -1,3 +1,3 @@
 ***REMOVED***
-	db: process.env.MONGOHQ_URL
+	db: process.env.MONGOLAB_URL
 ***REMOVED***
