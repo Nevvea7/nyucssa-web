@@ -11,7 +11,6 @@ function PostsDAO(db) {
     var posts = db.collection("posts");
 
     this.getPosts = function(num, callback) {
-
     	posts.find().limit(num).toArray(function(err, items) {
     		if (err) return callback(err, null);
     		console.log("Found posts");
