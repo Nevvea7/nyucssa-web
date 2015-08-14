@@ -4,7 +4,7 @@
   "description": "A cssa beta website",
   "main": "app.js",
   "scripts": {
-    "start": "NODE_PATH=./config:./app/controllers node app.js"
+    "start": "NODE_PATH=./config:./app/controllers node app.js"  
   ***REMOVED***,
   "dependencies": {
     "ejs": "^2.3.1",

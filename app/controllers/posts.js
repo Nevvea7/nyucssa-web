@@ -28,5 +28,6 @@ function PostsDAO(db) {
             callback(err, post);
         ***REMOVED***);
     ***REMOVED***
+
 ***REMOVED***
 module.exports.PostsDAO = PostsDAO;

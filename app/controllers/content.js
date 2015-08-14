@@ -17,8 +17,9 @@ function ContentHandler (db) {
 		***REMOVED***);
 	***REMOVED***
 
-
 	this.displayPostByLink = function(req, res, next) {
+
+		console.log("displayPostByLink");
 
 		var link = req.params.link;
 
