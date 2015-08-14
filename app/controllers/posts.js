@@ -28,5 +28,6 @@ function PostsDAO(db) {
             callback(err, post);
         });
     }
+
 }
 module.exports.PostsDAO = PostsDAO;
