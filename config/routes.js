@@ -13,9 +13,9 @@ module.exports = exports = function(app, db) {
 	app.get('/post/:link', contentHandler.displayPostByLink);
 
 	app.use(function (req, res, next) {
-    	res.status(404).render('pages/404', {
-      	url: req.originalUrl,
-      	error: 'Not found'
+		res.status(404).render('pages/404', {
+		url: req.originalUrl,
+		error: 'Not found'
     });
   });
 
