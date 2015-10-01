@@ -109,3 +109,8 @@
 .lead-post p {
   text-align: justify;
 ***REMOVED***
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+***REMOVED***
