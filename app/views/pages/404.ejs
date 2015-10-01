@@ -11,7 +11,8 @@
 	<header id="about-header">
 		<div class="container">
 			<div class="row">
-				<h1>Cannot find the page you want Error 404</h1>
+				<h1>Cannot find the page you want Error 404 sss</h1>
+                <h2>you will be redirect to homepage in <p style="display:inline" id = "timeleft"></p> seconds</h2>
 			</div>
 		</div>
 	</header>
@@ -35,10 +36,21 @@
     <script src="/js/custom.js"></script>
 
     <script>
+        var timeleft = 5;
     	$(document).ready(function(){
     		$('.nav li').removeClass('active');
     		$('#nav_events').addClass('active');
     	})
+        window.setInterval(function(){
+            if (timeleft == 0){
+                // TODO
+                window.location.href = "http://localhost:5000/home";
+            }
+            else{
+                timeleft--;
+                document.getElementById("timeleft").innerHTML = timeleft;
+            }
+        },1000);
     </script>
 
 </body>
