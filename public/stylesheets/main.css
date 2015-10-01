@@ -1,18 +1,18 @@
 .jumbotron {
   background: #532F8C;
   color: white;
-  padding-bottom: 80px; ***REMOVED***
+  padding-bottom: 80px; }
   .jumbotron .btn-primary {
     background: #845ac7;
-    border-color: #845ac7; ***REMOVED***
+    border-color: #845ac7; }
     .jumbotron .btn-primary:hover {
-      background: #7646c1; ***REMOVED***
+      background: #7646c1; }
   .jumbotron p {
     color: #d9ccee;
     max-width: 75%;
-    margin: 1em auto 2em; ***REMOVED***
+    margin: 1em auto 2em; }
   .navbar + .jumbotron {
-    margin-top: -20px; ***REMOVED***
+    margin-top: -20px; }
   .jumbotron .lang-logo {
     display: block;
     background: #B01302;
@@ -21,14 +21,14 @@
     width: 100px;
     height: 100px;
     margin: auto;
-    border: 2px solid white; ***REMOVED***
+    border: 2px solid white; }
     .jumbotron .lang-logo img {
-      max-width: 100%; ***REMOVED***
+      max-width: 100%; }
 
 
 .dropdown:hover .dropdown-menu {
   display: block;
-***REMOVED***
+}
 
 
 @media(min-width:768px) {
@@ -37,80 +37,80 @@
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
-    ***REMOVED***
+    }
 
     .navbar-fixed-top .navbar-brand {
         font-size: 2em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
-    ***REMOVED***
+    }
 
     .navbar-fixed-top.navbar-shrink {
         padding: 10px 0;
-    ***REMOVED***
+    }
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
         font-size: 1.5em;
-    ***REMOVED***
-***REMOVED***
+    }
+}
 
 .navbar {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     background-color: #78286B;
-***REMOVED***
+}
 
 .navbar a:focus {
     outline: 0;
-***REMOVED***
+}
 
 .navbar .navbar-nav {
     letter-spacing: 1px;
-***REMOVED***
+}
 
 .navbar .navbar-nav li a:focus {
     outline: 0;
-***REMOVED***
+}
 
 .navbar-default,
 .navbar-inverse {
     border: 0;
-***REMOVED***
+}
 
 .navbar-default .navbar-brand {
   color: #fff;
-  ***REMOVED***
+  }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
   color:#3c0032;
   background-color: #fff;
-***REMOVED***
+}
 
 .navbar-default .navbar-nav>li>a {
   color: #fff;
-***REMOVED***
+}
 .navbar-default .navbar-nav>li>a:hover {
   color: #3c0032;
   background-color: #fff;
-***REMOVED***
+}
 
 .sponsor-logo {
   margin-bottom: 30px;
   padding-left: 0px;
   padding-right: 0px;
 
-***REMOVED***
+}
 
 /* 
   Home page blog posts style
 */
 .lead-post p {
   text-align: justify;
-***REMOVED***
+}
 
 .col-centered{
     float: none;
     margin: 0 auto;
-***REMOVED***
+}

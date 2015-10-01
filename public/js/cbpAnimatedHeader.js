@@ -20,25 +20,25 @@ var cbpAnimatedHeader = (function() {
 			if( !didScroll ) {
 				didScroll = true;
 				setTimeout( scrollPage, 250 );
-			***REMOVED***
-		***REMOVED***, false );
-	***REMOVED***
+			}
+		}, false );
+	}
 
 	function scrollPage() {
 		var sy = scrollY();
 		if ( sy >= changeHeaderOn ) {
 			classie.add( header, 'navbar-shrink' );
-		***REMOVED***
+		}
 		else {
 			classie.remove( header, 'navbar-shrink' );
-		***REMOVED***
+		}
 		didScroll = false;
-	***REMOVED***
+	}
 
 	function scrollY() {
 		return window.pageYOffset || docElem.scrollTop;
-	***REMOVED***
+	}
 
 	init();
 
-***REMOVED***)();
+})();

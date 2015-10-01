@@ -6,7 +6,7 @@ function PostsDAO(db) {
     if (false === (this instanceof PostsDAO)) {
         console.log('Warning: PostsDAO constructor called without "new" operator');
         return new PostsDAO(db);
-    ***REMOVED***
+    }
 
     var posts = db.collection("posts");
 
@@ -15,18 +15,18 @@ function PostsDAO(db) {
     		if (err) return callback(err, null);
     		console.log("Found posts");
     		callback(err, items);
-    	***REMOVED***);
-    ***REMOVED***
+    	});
+    }
 
     this.getPostByLink = function(link, callback) {
 
-        posts.findOne({'link': link***REMOVED***, function(err, post) {
+        posts.findOne({'link': link}, function(err, post) {
 
             if (err) return callback(err, null);
 
             callback(err, post);
-        ***REMOVED***);
-    ***REMOVED***
+        });
+    }
 
-***REMOVED***
+}
 module.exports.PostsDAO = PostsDAO;

@@ -13,9 +13,9 @@ function ContentHandler (db) {
 
 			return res.render('pages/index', {
 				topposts: results
-			***REMOVED***);
-		***REMOVED***);
-	***REMOVED***
+			});
+		});
+	}
 
 	this.displayPostByLink = function(req, res, next) {
 
@@ -28,9 +28,9 @@ function ContentHandler (db) {
 			
 			return res.render('pages/singlepost', {
 				post: post
-			***REMOVED***);
-		***REMOVED***);
-	***REMOVED***
-***REMOVED***
+			});
+		});
+	}
+}
 
 module.exports = ContentHandler;

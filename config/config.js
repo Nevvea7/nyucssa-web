@@ -6,9 +6,9 @@ var production = require('./env/production');
 
 var defaults = {
 	root: path.join(__dirname, '..')
-***REMOVED***;
+};
 
-***REMOVED***
+module.exports = {
 	development: extend(development, defaults),
 	production: extend(production, defaults)
-***REMOVED***[process.env.NODE_ENV || 'development'];
+}[process.env.NODE_ENV || 'development'];

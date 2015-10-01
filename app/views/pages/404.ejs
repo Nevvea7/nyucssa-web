@@ -40,17 +40,17 @@
     	$(document).ready(function(){
     		$('.nav li').removeClass('active');
     		$('#nav_events').addClass('active');
-    	***REMOVED***)
+    	})
         window.setInterval(function(){
             if (timeleft == 0){
                 // TODO
                 window.location.href = "http://localhost:5000/home";
-            ***REMOVED***
+            }
             else{
                 timeleft--;
                 document.getElementById("timeleft").innerHTML = timeleft;
-            ***REMOVED***
-        ***REMOVED***,1000);
+            }
+        },1000);
     </script>
 
 </body>

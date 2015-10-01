@@ -1,3 +1,3 @@
-***REMOVED***
-	db: '***REMOVED***'
-***REMOVED***
+module.exports = {
+	db: ''
+}

@@ -19,7 +19,7 @@
 
 function classReg( className ) {
   return new RegExp("(^|\\s+)" + className + "(\\s+|$)");
-***REMOVED***
+}
 
 // classList support for class management
 // altho to be fair, the api sucks because it won't accept multiple classes at once
@@ -28,32 +28,32 @@ var hasClass, addClass, removeClass;
 if ( 'classList' in document.documentElement ) {
   hasClass = function( elem, c ) {
     return elem.classList.contains( c );
-  ***REMOVED***;
+  };
   addClass = function( elem, c ) {
     elem.classList.add( c );
-  ***REMOVED***;
+  };
   removeClass = function( elem, c ) {
     elem.classList.remove( c );
-  ***REMOVED***;
-***REMOVED***
+  };
+}
 else {
   hasClass = function( elem, c ) {
     return classReg( c ).test( elem.className );
-  ***REMOVED***;
+  };
   addClass = function( elem, c ) {
     if ( !hasClass( elem, c ) ) {
       elem.className = elem.className + ' ' + c;
-    ***REMOVED***
-  ***REMOVED***;
+    }
+  };
   removeClass = function( elem, c ) {
     elem.className = elem.className.replace( classReg( c ), ' ' );
-  ***REMOVED***;
-***REMOVED***
+  };
+}
 
 function toggleClass( elem, c ) {
   var fn = hasClass( elem, c ) ? removeClass : addClass;
   fn( elem, c );
-***REMOVED***
+}
 
 var classie = {
   // full names
@@ -66,15 +66,15 @@ var classie = {
   add: addClass,
   remove: removeClass,
   toggle: toggleClass
-***REMOVED***;
+};
 
 // transport
 if ( typeof define === 'function' && define.amd ) {
   // AMD
   define( classie );
-***REMOVED*** else {
+} else {
   // browser global
   window.classie = classie;
-***REMOVED***
+}
 
-***REMOVED***)( window );
+})( window );

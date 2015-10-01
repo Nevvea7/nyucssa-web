@@ -8,17 +8,17 @@
 .carousel {
   height: 500px;
   margin-bottom: 60px;
-***REMOVED***
+}
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
-***REMOVED***
+}
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 500px;
   background-color: #777;
-***REMOVED***
+}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -27,14 +27,14 @@
 .marketing .col-lg-4 {
   margin-bottom: 20px;
   text-align: center;
-***REMOVED***
+}
 .marketing h2 {
   font-weight: normal;
-***REMOVED***
+}
 .marketing .col-lg-4 p {
   margin-right: 10px;
   margin-left: 10px;
-***REMOVED***
+}
 
 
 /* Featurettes
@@ -42,14 +42,14 @@
 
 .featurette-divider {
   margin: 80px 0; /* Space out the Bootstrap <hr> more */
-***REMOVED***
+}
 
 /* Thin out the marketing headings */
 .featurette-heading {
   font-weight: 300;
   line-height: 1;
   letter-spacing: -1px;
-***REMOVED***
+}
 
 
 /* RESPONSIVE CSS
@@ -62,15 +62,15 @@
     margin-bottom: 20px;
     font-size: 21px;
     line-height: 1.4;
-  ***REMOVED***
+  }
 
   .featurette-heading {
     font-size: 50px;
-  ***REMOVED***
-***REMOVED***
+  }
+}
 
 @media (min-width: 992px) {
   .featurette-heading {
     margin-top: 120px;
-  ***REMOVED***
-***REMOVED***
+  }
+}
